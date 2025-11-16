@@ -9,14 +9,14 @@ public static void main(String[] args) {
 	System.out.println("How many hours did you work?: ");
 	hoursworked = input.nextDouble();
 	
-	  double pay = hoursworked * rate;
-		double payaftertax = pay * 0.86;
-    double clothesAccessories = payaftertax * 0.10;
-   	double schoolSupplies = payaftertax * 0.01;
-	  double savingBonds = (payaftertax - ( clothesAccessories+ schoolSupplies)) * 0.25;
-	  double additionalSavings = savingBonds * 0.50;
+       double pay = hoursworked * rate;
+	   double payaftertax = pay * 0.86;
+       double clothesAccessories = payaftertax * 0.10;
+       double schoolSupplies = payaftertax * 0.01;
+	   double savingBonds = (payaftertax - ( clothesAccessories+ schoolSupplies)) * 0.25;
+	   double additionalSavings = savingBonds * 0.50;
 
-	       System.out.printf("Pay: %.2f $%n", pay);
+	     System.out.printf("Pay: %.2f $%n", pay);
          System.out.printf("Pay after taxation: %.2f $%n", payaftertax);
          System.out.printf("Money spent on clothes and accessories: %.2f $%n", clothesAccessories);
          System.out.printf("Money spent on school supplies: %.2f $%n", schoolSupplies);
