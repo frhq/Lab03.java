@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class LabTask5 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter total milk produced (liters): ");
+        double milkProduced = input.nextDouble();
+        
+        int cartonsNeeded = (int)Math.round(milkProduced / 3.78);
+        
+        double productionCost = milkProduced * 0.38;
+        double profit = cartonsNeeded * 0.27;
+        
+        System.out.println("Cartons needed: " + cartonsNeeded);
+        System.out.println("Production cost: $" + String.format("%.2f", productionCost));
+        System.out.println("Profit: $" + String.format("%.2f", profit));
+    }
+}
