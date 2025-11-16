@@ -15,17 +15,17 @@ public class LabTask7 {
         System.out.print("Enter number of Class D tickets sold: ");
         int classD = input.nextInt();
         
-       double incomeA = classA * 20;
-       double incomeB = classB * 15;
-       double incomeC = classC * 10;
-       double incomeD = classD * 5;
+         double incomeA = classA * 20;
+         double incomeB = classB * 15;
+         double incomeC = classC * 10;
+         double incomeD = classD * 5;
         
-       double totalIncome = incomeA + incomeB + incomeC + incomeD;
+         double totalIncome = incomeA + incomeB + incomeC + incomeD;
         
-        System.out.println("Class A income: $" + incomeA);
-        System.out.println("Class B income: $" + incomeB);
-        System.out.println("Class C income: $" + incomeC);
-        System.out.println("Class D income: $" + incomeD);
-        System.out.println("Total income: $" + totalIncome);
+          System.out.println("Class A income: $" + incomeA);
+          System.out.println("Class B income: $" + incomeB);
+          System.out.println("Class C income: $" + incomeC);
+          System.out.println("Class D income: $" + incomeD);
+          System.out.println("Total income: $" + totalIncome);
     }
 }
