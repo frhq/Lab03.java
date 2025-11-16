@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+    public class LabTask4 {
+        public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Enter the NO of minutes passed since midnight: ");
+        int minutes = input.nextInt();
+        
+        int hours = (minutes / 60) % 24;
+        int remainingMinutes = minutes % 60;
+        
+        hours =  hours % 24;
+        
+        System.out.println("Time: " + hours + ":" + String.format("%02d", remainingMinutes));
+    }
+}
