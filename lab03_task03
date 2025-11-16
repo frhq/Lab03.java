@@ -1,0 +1,21 @@
+ import java.util.Scanner;
+
+  public class LabTask3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the No of Students of Desk a: ");
+        int a = input.nextInt();
+        System.out.print("Enter the No of Students of Desk b: ");
+        int b = input.nextInt();
+        System.out.print("Enter the No of Students of Desk c: ");
+         int c = input.nextInt();
+    
+        int desksA = (a + 1) / 2;
+        int desksB = (b + 1) / 2;
+        int desksC = (c + 1) / 2;
+
+       int totalDesks = (desksA + desksB + desksC);
+       System.out.println("Minimum desks needed: " + totalDesks);
+       
+    }
+}
