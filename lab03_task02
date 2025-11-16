@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class LabTask02 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+     System.out.print("Enter the number of students(N) : ");
+     int N = input.nextInt();
+     
+     System.out.print("Enter the number of Apples(K) : ");
+     int K = input.nextInt();
+ 
+     int applesPerStudents = K / N ;
+     int remainingApples = K % N ;
+    
+     System.out.println("Apples per students = " + applesPerStudents );
+     System.out.println("Remaining Apples = " + remainingApples);
+       }
+}
